@@ -40,10 +40,10 @@
             </objects>
             <point key="canvasLocation" x="980.91603053435108" y="-34.507042253521128"/>
         </scene>
-        <!--View Controller-->
+        <!--Details View Controller-->
         <scene sceneID="CO8-lh-Nu4">
             <objects>
-                <viewController id="DJt-t3-CSO" sceneMemberID="viewController">
+                <viewController id="DJt-t3-CSO" customClass="DetailsViewController" customModule="SwiftCharacterBookwithClass" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XSl-dz-MXm">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
