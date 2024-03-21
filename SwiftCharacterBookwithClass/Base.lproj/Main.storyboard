@@ -78,6 +78,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Hrg-ZI-wdd"/>
+                    <connections>
+                        <outlet property="arealabel" destination="edi-kL-vuu" id="cKd-VC-l5o"/>
+                        <outlet property="elementlabel" destination="j9E-Kc-dJ1" id="Plv-3z-PEV"/>
+                        <outlet property="imageView" destination="581-Fi-vdl" id="2ew-ci-ozW"/>
+                        <outlet property="namelabel" destination="K1g-nP-asI" id="RoW-FA-mup"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wYu-3e-tjV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
