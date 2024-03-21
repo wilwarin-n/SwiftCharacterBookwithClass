@@ -17,6 +17,7 @@
 		DBC83CD02BACC72400D8FF66 /* SwiftCharacterBookwithClassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC83CCF2BACC72400D8FF66 /* SwiftCharacterBookwithClassUITests.swift */; };
 		DBC83CD22BACC72400D8FF66 /* SwiftCharacterBookwithClassUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC83CD12BACC72400D8FF66 /* SwiftCharacterBookwithClassUITestsLaunchTests.swift */; };
 		DBC83CDF2BACCDBD00D8FF66 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC83CDE2BACCDBD00D8FF66 /* Character.swift */; };
+		DBC83CE12BACD3AD00D8FF66 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC83CE02BACD3AD00D8FF66 /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		DBC83CCF2BACC72400D8FF66 /* SwiftCharacterBookwithClassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCharacterBookwithClassUITests.swift; sourceTree = "<group>"; };
 		DBC83CD12BACC72400D8FF66 /* SwiftCharacterBookwithClassUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCharacterBookwithClassUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DBC83CDE2BACCDBD00D8FF66 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		DBC83CE02BACD3AD00D8FF66 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				DBC83CB22BACC70E00D8FF66 /* ViewController.swift */,
 				DBC83CDE2BACCDBD00D8FF66 /* Character.swift */,
 				DBC83CB42BACC70E00D8FF66 /* Main.storyboard */,
+				DBC83CE02BACD3AD00D8FF66 /* DetailsViewController.swift */,
 				DBC83CB72BACC72300D8FF66 /* Assets.xcassets */,
 				DBC83CB92BACC72300D8FF66 /* LaunchScreen.storyboard */,
 				DBC83CBC2BACC72300D8FF66 /* Info.plist */,
@@ -265,6 +268,7 @@
 				DBC83CAF2BACC70E00D8FF66 /* AppDelegate.swift in Sources */,
 				DBC83CB12BACC70E00D8FF66 /* SceneDelegate.swift in Sources */,
 				DBC83CDF2BACCDBD00D8FF66 /* Character.swift in Sources */,
+				DBC83CE12BACD3AD00D8FF66 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
