@@ -11,7 +11,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     @IBOutlet weak var tableView: UITableView!
     
-    
+    var characterList = [Character]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,18 +28,22 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         let nahida = Character(characterName: "Nahida", characterElement: "Dendro", characterArea: "Sumeru", image: UIImage(named: "nahida")!)
         
-        let characterList = [traveler,ganyu,hutao,nahida]
+        characterList = [traveler,ganyu,hutao,nahida]
         
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return characterList.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = UITableViewCell()
-        cell.textLabel?.text = "Test"
+        cell.textLabel?.text = characterList[indexPath.row].characterName
         return cell
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        performSegue(withIdentifier: "toDetailsVC", sender: nil)
     }
 
 
